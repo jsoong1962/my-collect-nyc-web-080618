@@ -2,7 +2,7 @@ def my_collect(collection)
   arr = []
   i = 0
   while i < collection.length
-  yield(arr.push(collection[i]))
+  yield arr.push(collection[i])
   i += 1
   end
   arr

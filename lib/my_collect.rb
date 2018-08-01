@@ -6,10 +6,7 @@ def my_collect(collection)
   arr.push(block)
   i += 1
   end
-  arr
+  p arr
 end
 
-array = ["Tim Jones", "Tom Smith", "Jim Campagno"]
-my_collect(array) do |name|
-  name.split(" ").first
-end
+
